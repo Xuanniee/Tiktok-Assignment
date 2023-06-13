@@ -16,6 +16,7 @@ var (
 )
 
 func main() {
+
 	ctx := context.Background()
 
 	err := rdb.InitClient(ctx, "redis:6379", "")
